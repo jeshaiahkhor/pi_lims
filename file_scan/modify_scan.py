@@ -30,8 +30,8 @@ with open(logfile, "r") as f:
     # Reading header line & identifying relevant columns for datetime and scan number.
     header = clean_csv_line(f.readline())
     
-    datetime_idx = header.index("Datetime")
-    scan_num_idx = header.index("Scan Number")
+    datetime_idx = header.index("datetime")
+    scan_num_idx = header.index("scan_number")
     
     # Retrieving last line (most recent scan) datetime details
     latest_scan_details = clean_csv_line(f.readlines()[-1])
