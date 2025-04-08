@@ -11,7 +11,7 @@ server_location = "/home/nl_jesh/raw_data_central"
 logfile = "/home/pi/development/file_scan/scan_log.csv"
 archive_dir = "archive"
 # Replace this with something more secure
-remote = Connection(host="10.1.1.20", user="nl_jesh", port=14986, connect_kwargs={"key_filename": "/home/pi/.ssh/rpi01"})
+remote = Connection(host="192.168.0.20", user="nl_jesh", port=14986, connect_kwargs={"key_filename": "/home/pi/.ssh/rpi01"})
 
 
 # Function - cleans the \n off a line and splits it by ", " 
