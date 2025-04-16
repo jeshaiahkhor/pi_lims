@@ -13,7 +13,7 @@ The `scan_log.csv` file (ignored by Git for security) is kept to a maximum lengt
 
 
 ## File contents
-The repo runs on 6 main files, detailed below.
+The repo runs on 4 main files, detailed below.
 
 
 ### Bash scripts
